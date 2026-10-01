@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About — OmniStore",
+  description: "What OmniStore is, and the tech stack behind it.",
+};
+
 const STACK = [
   "Next.js 16 (App Router)",
   "TypeScript (strict mode)",

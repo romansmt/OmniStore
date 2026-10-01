@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Architecture — OmniStore",
+  description: "How OmniStore applies MACH principles across its frontend layers.",
+};
+
 const PRINCIPLES = [
   {
     title: "Microservices",
